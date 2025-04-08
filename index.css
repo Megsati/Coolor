@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid #7c7676;
+}
+.nav ul{
+    display: flex;
+    gap: 20px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+a:hover{
+    color: #005CE6;
+    cursor: pointer;
+
+}
+}
+.btn{
+    color: white;
+    background-color: #005CE6;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.hotpink{
+    color: hotpink;
+}
+.hotpink:hover{
+    color: rgb(167, 111, 139);
+    cursor: pointer;
+    }
+    
